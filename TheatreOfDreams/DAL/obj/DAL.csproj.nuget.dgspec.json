@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\DAL.csproj": {}
+    "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\DAL.csproj": {
+    "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

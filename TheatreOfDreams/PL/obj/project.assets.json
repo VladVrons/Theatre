@@ -6458,11 +6458,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\PL\\PL.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\PL\\PL.csproj",
       "projectName": "PL",
-      "projectPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\PL\\PL.csproj",
+      "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\PL\\PL.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\PL\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\PL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6479,8 +6479,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\BLL\\BLL.csproj"
+            "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\BLL.csproj"
             }
           }
         }

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.191" branch-rate="0" version="1.9" timestamp="1641555265" lines-covered="34" lines-valid="178" branches-covered="0" branches-valid="20">
+<coverage line-rate="0.3593" branch-rate="0.25" version="1.9" timestamp="1641674423" lines-covered="69" lines-valid="192" branches-covered="5" branches-valid="20">
   <sources>
     <source>C:\Users\asus\</source>
   </sources>
   <packages>
-    <package name="BLL" line-rate="0" branch-rate="0" complexity="26">
+    <package name="BLL" line-rate="0.3448" branch-rate="0.375" complexity="26">
       <classes>
-        <class name="BLL.ValidationException" filename="source\repos\TheatreOfDreams\BLL\Struct\ValidationException.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="BLL.ValidationException" filename="Documents\GitHub\Theatre\TheatreOfDreams\BLL\Struct\ValidationException.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="get_Property" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -30,7 +30,7 @@
             <line number="13" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="BLL.Struct.ServiceModule" filename="source\repos\TheatreOfDreams\BLL\Struct\ServiseModule.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="BLL.Struct.ServiceModule" filename="Documents\GitHub\Theatre\TheatreOfDreams\BLL\Struct\ServiseModule.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="Load" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -58,24 +58,24 @@
             <line number="16" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="BLL.Servises.OrderService" filename="source\repos\TheatreOfDreams\BLL\Servises\OrderServise.cs" line-rate="0" branch-rate="0" complexity="12">
+        <class name="BLL.Servises.OrderService" filename="Documents\GitHub\Theatre\TheatreOfDreams\BLL\Servises\OrderServise.cs" line-rate="0.41659999999999997" branch-rate="0.375" complexity="12">
           <methods>
-            <method name="get_Database" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Database" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="False" />
+                <line number="13" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="BookTicket" signature="(System.Int32,System.Int32)" line-rate="0" branch-rate="0" complexity="2">
+            <method name="BookTicket" signature="(System.Int32,System.Int32)" line-rate="0.5" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="20" hits="0" branch="False" />
-                <line number="21" hits="0" branch="False" />
-                <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="23" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="25" type="jump" coverage="0%" />
+                    <condition number="25" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="24" hits="0" branch="False" />
-                <line number="26" hits="0" branch="False" />
+                <line number="26" hits="1" branch="False" />
                 <line number="28" hits="0" branch="False" />
                 <line number="29" hits="0" branch="False" />
                 <line number="30" hits="0" branch="False" />
@@ -89,24 +89,24 @@
                 <line number="37" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="GetShow" signature="(System.Nullable`1&lt;System.Int32&gt;)" line-rate="0" branch-rate="0" complexity="4">
+            <method name="GetShow" signature="(System.Nullable`1&lt;System.Int32&gt;)" line-rate="0.75" branch-rate="0.5" complexity="4">
               <lines>
-                <line number="40" hits="0" branch="False" />
-                <line number="41" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="13" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="42" hits="0" branch="False" />
-                <line number="43" hits="0" branch="False" />
-                <line number="44" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="61" type="jump" coverage="0%" />
+                    <condition number="61" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="45" hits="0" branch="False" />
-                <line number="47" hits="0" branch="False" />
-                <line number="48" hits="0" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
               </lines>
             </method>
             <method name="BuyTicket" signature="(System.Int32,System.Int32)" line-rate="0" branch-rate="0" complexity="2">
@@ -132,26 +132,26 @@
                 <line number="65" hits="0" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(DAL.Interfaces.IUnitOfWork)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(DAL.Interfaces.IUnitOfWork)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="0" branch="False" />
-                <line number="16" hits="0" branch="False" />
-                <line number="17" hits="0" branch="False" />
-                <line number="18" hits="0" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-            <line number="21" hits="0" branch="False" />
-            <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="13" hits="3" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="23" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="25" type="jump" coverage="0%" />
+                <condition number="25" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="24" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
+            <line number="26" hits="1" branch="False" />
             <line number="28" hits="0" branch="False" />
             <line number="29" hits="0" branch="False" />
             <line number="30" hits="0" branch="False" />
@@ -159,22 +159,22 @@
             <line number="35" hits="0" branch="False" />
             <line number="36" hits="0" branch="False" />
             <line number="37" hits="0" branch="False" />
-            <line number="40" hits="0" branch="False" />
-            <line number="41" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="13" type="jump" coverage="0%" />
+                <condition number="13" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="42" hits="0" branch="False" />
-            <line number="43" hits="0" branch="False" />
-            <line number="44" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="61" type="jump" coverage="0%" />
+                <condition number="61" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="45" hits="0" branch="False" />
-            <line number="47" hits="0" branch="False" />
-            <line number="48" hits="0" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
             <line number="50" hits="0" branch="False" />
             <line number="51" hits="0" branch="False" />
             <line number="53" hits="0" branch="True" condition-coverage="0% (0/2)">
@@ -190,32 +190,32 @@
             <line number="63" hits="0" branch="False" />
             <line number="64" hits="0" branch="False" />
             <line number="65" hits="0" branch="False" />
-            <line number="15" hits="0" branch="False" />
-            <line number="16" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="BLL.DTO.ShowDTO" filename="source\repos\TheatreOfDreams\BLL\DTO\ShowDTO.cs" line-rate="0" branch-rate="1" complexity="6">
+        <class name="BLL.DTO.ShowDTO" filename="Documents\GitHub\Theatre\TheatreOfDreams\BLL\DTO\ShowDTO.cs" line-rate="0.8332999999999999" branch-rate="1" complexity="6">
           <methods>
-            <method name="get_id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="0" branch="False" />
+                <line number="10" hits="2" branch="False" />
               </lines>
             </method>
-            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="0" branch="False" />
+                <line number="11" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="get_Author" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Author" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="0" branch="False" />
+                <line number="12" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="get_Genre" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Genre" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="False" />
+                <line number="13" hits="1" branch="False" />
               </lines>
             </method>
             <method name="get_Date" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -223,22 +223,22 @@
                 <line number="14" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="get_Size" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Size" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="0" branch="False" />
+                <line number="15" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="10" hits="0" branch="False" />
-            <line number="11" hits="0" branch="False" />
-            <line number="12" hits="0" branch="False" />
-            <line number="13" hits="0" branch="False" />
+            <line number="10" hits="2" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
             <line number="14" hits="0" branch="False" />
-            <line number="15" hits="0" branch="False" />
+            <line number="15" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="BLL.DTO.TicketDTO" filename="source\repos\TheatreOfDreams\BLL\DTO\TicketDTO.cs" line-rate="0" branch-rate="1" complexity="4">
+        <class name="BLL.DTO.TicketDTO" filename="Documents\GitHub\Theatre\TheatreOfDreams\BLL\DTO\TicketDTO.cs" line-rate="0" branch-rate="1" complexity="4">
           <methods>
             <method name="get_showid" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -270,21 +270,21 @@
         </class>
       </classes>
     </package>
-    <package name="DAL" line-rate="0.22010000000000002" branch-rate="0" complexity="43">
+    <package name="DAL" line-rate="0.29309999999999997" branch-rate="0.1666" complexity="44">
       <classes>
-        <class name="DAL.Repositories.EFUnitOfWork" filename="source\repos\TheatreOfDreams\DAL\Repositories\EFUnitOfWork.cs" line-rate="0" branch-rate="0" complexity="11">
+        <class name="DAL.Repositories.EFUnitOfWork" filename="Documents\GitHub\Theatre\TheatreOfDreams\DAL\Repositories\EFUnitOfWork.cs" line-rate="0.3125" branch-rate="0.25" complexity="11">
           <methods>
-            <method name="get_Shows" signature="()" line-rate="0" branch-rate="0" complexity="2">
+            <method name="get_Shows" signature="()" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="23" hits="0" branch="False" />
-                <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="23" hits="2" branch="False" />
+                <line number="24" hits="2" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="12" type="jump" coverage="0%" />
+                    <condition number="12" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="25" hits="0" branch="False" />
-                <line number="26" hits="0" branch="False" />
-                <line number="27" hits="0" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="2" branch="False" />
+                <line number="27" hits="2" branch="False" />
               </lines>
             </method>
             <method name="get_Tickets" signature="()" line-rate="0" branch-rate="0" complexity="2">
@@ -337,26 +337,26 @@
                 <line number="63" hits="0" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="0" branch="False" />
-                <line number="17" hits="0" branch="False" />
-                <line number="18" hits="0" branch="False" />
-                <line number="19" hits="0" branch="False" />
-                <line number="45" hits="0" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="23" hits="0" branch="False" />
-            <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="23" hits="2" branch="False" />
+            <line number="24" hits="2" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="12" type="jump" coverage="0%" />
+                <condition number="12" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="25" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
-            <line number="27" hits="0" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="2" branch="False" />
             <line number="33" hits="0" branch="False" />
             <line number="34" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
@@ -391,14 +391,14 @@
             <line number="61" hits="0" branch="False" />
             <line number="62" hits="0" branch="False" />
             <line number="63" hits="0" branch="False" />
-            <line number="16" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="19" hits="0" branch="False" />
-            <line number="45" hits="0" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="DAL.Repositories.ShowRepository" filename="source\repos\TheatreOfDreams\DAL\Repositories\ShowRepository.cs" line-rate="0.2916" branch-rate="0" complexity="8">
+        <class name="DAL.Repositories.ShowRepository" filename="Documents\GitHub\Theatre\TheatreOfDreams\DAL\Repositories\ShowRepository.cs" line-rate="0.2916" branch-rate="0" complexity="8">
           <methods>
             <method name="GetAll" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -409,9 +409,9 @@
             </method>
             <method name="Get" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="27" hits="1" branch="False" />
-                <line number="28" hits="1" branch="False" />
-                <line number="29" hits="1" branch="False" />
+                <line number="27" hits="3" branch="False" />
+                <line number="28" hits="3" branch="False" />
+                <line number="29" hits="3" branch="False" />
               </lines>
             </method>
             <method name="Create" signature="(DAL.Entities.Show)" line-rate="0" branch-rate="1" complexity="1">
@@ -450,10 +450,10 @@
             </method>
             <method name=".ctor" signature="(DAL.EF.ShowContext)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="1" branch="False" />
-                <line number="17" hits="1" branch="False" />
-                <line number="18" hits="1" branch="False" />
-                <line number="19" hits="1" branch="False" />
+                <line number="16" hits="2" branch="False" />
+                <line number="17" hits="2" branch="False" />
+                <line number="18" hits="2" branch="False" />
+                <line number="19" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
@@ -461,9 +461,9 @@
             <line number="22" hits="0" branch="False" />
             <line number="23" hits="0" branch="False" />
             <line number="24" hits="0" branch="False" />
-            <line number="27" hits="1" branch="False" />
-            <line number="28" hits="1" branch="False" />
-            <line number="29" hits="1" branch="False" />
+            <line number="27" hits="3" branch="False" />
+            <line number="28" hits="3" branch="False" />
+            <line number="29" hits="3" branch="False" />
             <line number="32" hits="0" branch="False" />
             <line number="33" hits="0" branch="False" />
             <line number="34" hits="0" branch="False" />
@@ -482,60 +482,71 @@
             </line>
             <line number="48" hits="0" branch="False" />
             <line number="49" hits="0" branch="False" />
-            <line number="16" hits="1" branch="False" />
-            <line number="17" hits="1" branch="False" />
-            <line number="18" hits="1" branch="False" />
-            <line number="19" hits="1" branch="False" />
+            <line number="16" hits="2" branch="False" />
+            <line number="17" hits="2" branch="False" />
+            <line number="18" hits="2" branch="False" />
+            <line number="19" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="DAL.Repositories.TicketRepository" filename="source\repos\TheatreOfDreams\DAL\Repositories\TicketRepository.cs" line-rate="0" branch-rate="0" complexity="8">
+        <class name="DAL.Repositories.TicketRepository" filename="Documents\GitHub\Theatre\TheatreOfDreams\DAL\Repositories\TicketRepository.cs" line-rate="0" branch-rate="0" complexity="9">
           <methods>
             <method name="GetAll" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
                 <line number="22" hits="0" branch="False" />
-                <line number="23" hits="0" branch="False" />
                 <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetFrom1Show" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
               </lines>
             </method>
             <method name="Get" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="27" hits="0" branch="False" />
-                <line number="28" hits="0" branch="False" />
-                <line number="29" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
               </lines>
             </method>
             <method name="Create" signature="(DAL.Entities.Ticket)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="32" hits="0" branch="False" />
-                <line number="33" hits="0" branch="False" />
-                <line number="34" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
               </lines>
             </method>
             <method name="Update" signature="(DAL.Entities.Ticket)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="37" hits="0" branch="False" />
-                <line number="38" hits="0" branch="False" />
-                <line number="39" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
               </lines>
             </method>
             <method name="Find" signature="(System.Func`2&lt;DAL.Entities.Ticket,System.Boolean&gt;)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="42" hits="0" branch="False" />
-                <line number="43" hits="0" branch="False" />
-                <line number="44" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
               </lines>
             </method>
             <method name="Delete" signature="(System.Int32)" line-rate="0" branch-rate="0" complexity="2">
               <lines>
-                <line number="47" hits="0" branch="False" />
-                <line number="48" hits="0" branch="False" />
-                <line number="49" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
                     <condition number="39" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="50" hits="0" branch="False" />
-                <line number="51" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(DAL.EF.ShowContext)" line-rate="0" branch-rate="1" complexity="1">
@@ -549,88 +560,95 @@
           </methods>
           <lines>
             <line number="22" hits="0" branch="False" />
-            <line number="23" hits="0" branch="False" />
             <line number="24" hits="0" branch="False" />
-            <line number="27" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
             <line number="28" hits="0" branch="False" />
             <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
             <line number="32" hits="0" branch="False" />
-            <line number="33" hits="0" branch="False" />
             <line number="34" hits="0" branch="False" />
-            <line number="37" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
             <line number="38" hits="0" branch="False" />
             <line number="39" hits="0" branch="False" />
-            <line number="42" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
             <line number="43" hits="0" branch="False" />
             <line number="44" hits="0" branch="False" />
-            <line number="47" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
             <line number="48" hits="0" branch="False" />
-            <line number="49" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
                 <condition number="39" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="50" hits="0" branch="False" />
-            <line number="51" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
             <line number="16" hits="0" branch="False" />
             <line number="17" hits="0" branch="False" />
             <line number="18" hits="0" branch="False" />
             <line number="19" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="DAL.Entities.Show" filename="source\repos\TheatreOfDreams\DAL\Entities\Show.cs" line-rate="1" branch-rate="1" complexity="7">
+        <class name="DAL.Entities.Show" filename="Documents\GitHub\Theatre\TheatreOfDreams\DAL\Entities\Show.cs" line-rate="1" branch-rate="1" complexity="7">
           <methods>
             <method name="get_id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="3" branch="False" />
+                <line number="10" hits="8" branch="False" />
               </lines>
             </method>
             <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="3" branch="False" />
+                <line number="11" hits="7" branch="False" />
               </lines>
             </method>
             <method name="get_Author" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="2" branch="False" />
+                <line number="12" hits="6" branch="False" />
               </lines>
             </method>
             <method name="get_Genre" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="2" branch="False" />
+                <line number="13" hits="6" branch="False" />
               </lines>
             </method>
             <method name="get_Date" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="2" branch="False" />
+                <line number="14" hits="5" branch="False" />
               </lines>
             </method>
             <method name="get_Size" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="2" branch="False" />
+                <line number="15" hits="6" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="1" branch="False" />
-                <line number="17" hits="1" branch="False" />
-                <line number="19" hits="1" branch="False" />
+                <line number="17" hits="2" branch="False" />
+                <line number="18" hits="2" branch="False" />
+                <line number="20" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="9" hits="3" branch="False" />
-            <line number="10" hits="3" branch="False" />
-            <line number="11" hits="2" branch="False" />
-            <line number="12" hits="2" branch="False" />
-            <line number="13" hits="2" branch="False" />
-            <line number="14" hits="2" branch="False" />
-            <line number="16" hits="1" branch="False" />
-            <line number="17" hits="1" branch="False" />
-            <line number="19" hits="1" branch="False" />
+            <line number="10" hits="8" branch="False" />
+            <line number="11" hits="7" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="5" branch="False" />
+            <line number="15" hits="6" branch="False" />
+            <line number="17" hits="2" branch="False" />
+            <line number="18" hits="2" branch="False" />
+            <line number="20" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="DAL.Entities.Ticket" filename="source\repos\TheatreOfDreams\DAL\Entities\Ticket.cs" line-rate="0" branch-rate="1" complexity="4">
+        <class name="DAL.Entities.Ticket" filename="Documents\GitHub\Theatre\TheatreOfDreams\DAL\Entities\Ticket.cs" line-rate="0" branch-rate="1" complexity="4">
           <methods>
             <method name="get_showid" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -644,32 +662,32 @@
             </method>
             <method name="get_Seat" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
               </lines>
             </method>
             <method name="get_Status" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="11" hits="0" branch="False" />
             <line number="12" hits="0" branch="False" />
-            <line number="13" hits="0" branch="False" />
             <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="DAL.EF.ShowContext" filename="source\repos\TheatreOfDreams\DAL\EF\Context.cs" line-rate="1" branch-rate="1" complexity="4">
+        <class name="DAL.EF.ShowContext" filename="Documents\GitHub\Theatre\TheatreOfDreams\DAL\EF\Context.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name="get_Shows" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="2" branch="False" />
+                <line number="11" hits="5" branch="False" />
               </lines>
             </method>
             <method name="get_Tickets" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="1" branch="False" />
+                <line number="12" hits="2" branch="False" />
               </lines>
             </method>
             <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -681,24 +699,24 @@
             </method>
             <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="1" branch="False" />
-                <line number="20" hits="1" branch="False" />
-                <line number="21" hits="1" branch="False" />
+                <line number="19" hits="2" branch="False" />
+                <line number="20" hits="2" branch="False" />
+                <line number="21" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="2" branch="False" />
-            <line number="12" hits="1" branch="False" />
+            <line number="11" hits="5" branch="False" />
+            <line number="12" hits="2" branch="False" />
             <line number="15" hits="1" branch="False" />
             <line number="16" hits="1" branch="False" />
             <line number="17" hits="1" branch="False" />
-            <line number="19" hits="1" branch="False" />
-            <line number="20" hits="1" branch="False" />
-            <line number="21" hits="1" branch="False" />
+            <line number="19" hits="2" branch="False" />
+            <line number="20" hits="2" branch="False" />
+            <line number="21" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="DAL.EF.ShowDbInitializer" filename="source\repos\TheatreOfDreams\DAL\EF\Context.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="DAL.EF.ShowDbInitializer" filename="Documents\GitHub\Theatre\TheatreOfDreams\DAL\EF\Context.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="Seed" signature="(DAL.EF.ShowContext)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -726,7 +744,7 @@
         </class>
       </classes>
     </package>
-    <package name="ToD.Tests" line-rate="0.909" branch-rate="1" complexity="4">
+    <package name="ToD.Tests" line-rate="0.8332999999999999" branch-rate="1" complexity="5">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.0.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -740,28 +758,17 @@
             <line number="4" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="ToD.Tests.DALTest" filename="source\repos\TheatreOfDreams\ToD.Tests\DAL.Test.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="ToD.Tests.BLLTest" filename="Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\BLL.Test.cs" line-rate="0.7142000000000001" branch-rate="1" complexity="1">
           <methods>
-            <method name="TakesIdShouldReturnName" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="BookTicket_AndCheck_UnitOfWork" signature="(System.Int32,System.Int32)" line-rate="0.7142000000000001" branch-rate="1" complexity="1">
               <lines>
                 <line number="19" hits="1" branch="False" />
                 <line number="20" hits="1" branch="False" />
                 <line number="21" hits="1" branch="False" />
                 <line number="22" hits="1" branch="False" />
                 <line number="23" hits="1" branch="False" />
-                <line number="24" hits="1" branch="False" />
-              </lines>
-            </method>
-            <method name="tetstest" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="28" hits="1" branch="False" />
-                <line number="29" hits="1" branch="False" />
-                <line number="30" hits="1" branch="False" />
-              </lines>
-            </method>
-            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="14" hits="6" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
@@ -771,11 +778,46 @@
             <line number="21" hits="1" branch="False" />
             <line number="22" hits="1" branch="False" />
             <line number="23" hits="1" branch="False" />
-            <line number="24" hits="1" branch="False" />
-            <line number="28" hits="1" branch="False" />
-            <line number="29" hits="1" branch="False" />
-            <line number="30" hits="1" branch="False" />
-            <line number="14" hits="6" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ToD.Tests.DALTest" filename="Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\DAL.Test.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="TakesIdShouldReturnName" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="tetstest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="11" hits="6" branch="False" />
           </lines>
         </class>
       </classes>

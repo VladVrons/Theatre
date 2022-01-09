@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,10 +9,12 @@ namespace DAL.Interfaces
     {
         IEnumerable<T> GetAll();
         T Get(int id);
+        
         IEnumerable<T> Find(Func<T, Boolean> predicate);
         void Create(T item);
         void Update(T item);
         void Delete(int id);
+        public IEnumerable<Ticket> GetFrom1Show1(int id);
     }
 
 }

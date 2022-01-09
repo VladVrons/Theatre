@@ -48,6 +48,9 @@ namespace DAL.Repositories
                 db.Shows.Remove(show);
         }
 
-       
+        public IEnumerable<Ticket> GetFrom1Show1(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

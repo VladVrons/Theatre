@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\PL\\PL.csproj": {}
+    "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\PL\\PL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\BLL\\BLL.csproj": {
+    "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\BLL\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\DAL.csproj"
+              "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\DAL.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\DAL.csproj": {
+    "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -132,14 +132,14 @@
         }
       }
     },
-    "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\PL\\PL.csproj": {
+    "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\PL\\PL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\PL\\PL.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\PL\\PL.csproj",
         "projectName": "PL",
-        "projectPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\PL\\PL.csproj",
+        "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\PL\\PL.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\PL\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\PL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -156,8 +156,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\BLL\\BLL.csproj"
+              "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\BLL.csproj"
               }
             }
           }

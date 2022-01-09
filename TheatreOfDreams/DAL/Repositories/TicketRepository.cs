@@ -20,7 +20,18 @@ namespace DAL.Repositories
 
         public IEnumerable<Ticket> GetAll()
         {
+
             return db.Tickets;
+        }
+
+        public IEnumerable<Ticket> GetFrom1Show(int id)
+        {
+            IEnumerable<Ticket> tickets
+             = from ticket in db.Tickets
+               where ticket.showid == id
+               select ticket;
+            
+            return tickets;
         }
 
         public Ticket Get(int seat)

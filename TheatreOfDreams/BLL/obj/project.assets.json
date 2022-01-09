@@ -1829,11 +1829,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\BLL\\BLL.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\BLL\\BLL.csproj",
+      "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\BLL\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1850,8 +1850,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\DAL\\DAL.csproj"
+            "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\DAL.csproj"
             }
           }
         }

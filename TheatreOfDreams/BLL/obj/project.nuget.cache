@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YVy0zejpZQYv7GDVBvX5jLFTYxTaU+FhmTVdrdcJUrsHVRCZ8qUoLXx19ilLkX2nTjLeMdsXGlwEDIKRt1inIQ==",
+  "dgSpecHash": "KOc5ITxBxoh5eRRR7Ht+wBpaF0c7TcbfKdn/NiMba6xJDIka+yUA6OxGcLxTR/wd6MubO6j30DuGc/lyXNPVzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\source\\repos\\TheatreOfDreams\\BLL\\BLL.csproj",
+  "projectFilePath": "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

@@ -19,10 +19,10 @@ namespace BLL.Servises
         public void BookTicket(int showId, int seat)
         {
             Show show = Database.Shows.Get(showId);
-
+            
             if (show == null)
                 throw new ValidationException("Шоу не найдено", "");
-
+            show.Tickets = Database.Tickets.GetFrom1Show1(showId);
             show.Tickets[seat].Status = 1;
             
             Database.Tickets.Update(show.Tickets[seat]);

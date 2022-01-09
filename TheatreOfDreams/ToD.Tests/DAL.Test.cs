@@ -1,9 +1,6 @@
-﻿using BLL.DTO;
-using BLL.Servises;
-using DAL.EF;
+﻿using DAL.EF;
 using DAL.Entities;
 using DAL.Repositories;
-using System.Collections.Generic;
 using Xunit;
 
 namespace ToD.Tests

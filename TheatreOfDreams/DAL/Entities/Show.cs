@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -15,7 +16,7 @@ namespace DAL.Entities
         public List<Ticket> Tickets;
         public Show()
         {
-
+            
         }
     }
 }
