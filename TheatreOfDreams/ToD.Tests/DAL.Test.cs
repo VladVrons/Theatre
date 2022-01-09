@@ -12,7 +12,7 @@ namespace ToD.Tests
 
         [Theory]
         [InlineData(1)]
-        public void TakesIdShouldReturnName(int id)
+        public void TakesId_ShouldReturnName(int id)
         {
             ShowContext db = new ShowContext("DefaultConnection");
             ShowRepository showrepo= new ShowRepository(db);
@@ -21,12 +21,31 @@ namespace ToD.Tests
         }
 
         [Fact]
-        public void tetstest()
+        public void ShowRepo_CreatesNewShow()
         {
-            Assert.Equal("1", "1");
+            ShowContext db = new ShowContext("DefaultConnection");
+            ShowRepository showrepo = new ShowRepository(db);
+            Show show = new Show
+            {
+                id = 7,
+                Name = "Christmas Show",
+                Genre = "Comedy",
+            };
+            showrepo.Create(show);
+            Assert.Equal("Christmas Show", showrepo.Get(7).Name);
         }
 
-       
+        [Fact]
+        public void ShowRepo_UpdateShowINDatabase()
+        {
+            ShowContext db = new ShowContext("DefaultConnection");
+            ShowRepository showrepo = new ShowRepository(db);
+            Show show = showrepo.Get(3);
+            show.Author = "Me";
+            showrepo.Update(show);
+            db.SaveChanges();
+            Assert.Equal("Me", showrepo.Get(3).Name);
+        }
 
     }
 }

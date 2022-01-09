@@ -14,7 +14,7 @@ namespace DAL.Interfaces
         void Create(T item);
         void Update(T item);
         void Delete(int id);
-        public IEnumerable<Ticket> GetFrom1Show1(int id);
+        public List<Ticket> GetFrom1Show1(int id);
     }
 
 }
