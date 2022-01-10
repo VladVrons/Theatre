@@ -1,0 +1,526 @@
+TpTrace Verbose: 0 : 3208, 1, 2022/01/10, 10:20:38.696, 20271887568478, testhost.dll, Version: 17.0.0
+TpTrace Information: 0 : 3208, 1, 2022/01/10, 10:20:38.703, 20271887602420, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 63230],[--endpoint, 127.0.0.1:063230],[--role, client],[--parentprocessid, 22160],[--diag, C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\coverage-tool-output\diagnostics.host.22-01-10_10-20-38_57709_4.log],[--tracelevel, 4],[--datacollectionport, 63229],[--telemetryoptedin, false]
+TpTrace Information: 0 : 3208, 1, 2022/01/10, 10:20:38.705, 20271887622386, testhost.dll, Setting up debug trace listener.
+TpTrace Verbose: 0 : 3208, 1, 2022/01/10, 10:20:38.705, 20271887624150, testhost.dll, TestPlatformTraceListener.Setup: Replacing listener 0 with TestHostTraceListener.
+TpTrace Verbose: 0 : 3208, 1, 2022/01/10, 10:20:38.705, 20271887624562, testhost.dll, TestPlatformTraceListener.Setup: Added test platform trace listener.
+TpTrace Information: 0 : 3208, 1, 2022/01/10, 10:20:38.705, 20271887627267, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '22160'
+TpTrace Information: 0 : 3208, 1, 2022/01/10, 10:20:38.711, 20271887684478, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:063230'
+TpTrace Information: 0 : 3208, 1, 2022/01/10, 10:20:38.725, 20271887822132, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:063230
+TpTrace Information: 0 : 3208, 1, 2022/01/10, 10:20:38.729, 20271887865645, testhost.dll, DefaultEngineInvoker.ConnectToDatacollector: Connecting to datacollector, port: 63229
+TpTrace Information: 0 : 3208, 8, 2022/01/10, 10:20:38.731, 20271887884435, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:063230
+TpTrace Information: 0 : 3208, 1, 2022/01/10, 10:20:38.732, 20271887894241, testhost.dll, Trying to connect to server on socket : 127.0.0.1:63229 
+TpTrace Verbose: 0 : 3208, 1, 2022/01/10, 10:20:38.732, 20271887898856, testhost.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Verbose: 0 : 3208, 8, 2022/01/10, 10:20:38.732, 20271887899774, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Information: 0 : 3208, 10, 2022/01/10, 10:20:38.734, 20271887916817, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 3208, 10, 2022/01/10, 10:20:38.734, 20271887919311, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 3208, 1, 2022/01/10, 10:20:38.735, 20271887924832, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 3208, 11, 2022/01/10, 10:20:38.736, 20271887932504, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:38.736, 20271887934121, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63230 localEndPoint: [::ffff:127.0.0.1]:63231
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:38.736, 20271887936784, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:63230 localEndPoint: [::ffff:127.0.0.1]:63231
+TpTrace Information: 0 : 3208, 9, 2022/01/10, 10:20:38.846, 20271889033936, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (ProtocolVersion) -> 5
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:38.871, 20271889284181, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Ведение журналов диагностики TestHost в файле: C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output\\diagnostics.host.22-01-10_10-20-38_57709_4.log"}}
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:38.871, 20271889291249, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63230 localEndPoint: [::ffff:127.0.0.1]:63231
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:38.872, 20271889291921, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:63230 localEndPoint: [::ffff:127.0.0.1]:63231
+TpTrace Information: 0 : 3208, 9, 2022/01/10, 10:20:38.875, 20271889324294, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestExecution.Initialize) -> [
+  "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\xunit.runner.visualstudio.dotnetcore.testadapter.dll"
+]
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:38.880, 20271889381374, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63230 localEndPoint: [::ffff:127.0.0.1]:63231
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:38.881, 20271889382143, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:63230 localEndPoint: [::ffff:127.0.0.1]:63231
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.881, 20271889385047, testhost.dll, TestRequestHandler.OnMessageReceived: Running job 'TestExecution.Initialize'.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.883, 20271889402213, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 3208, 9, 2022/01/10, 10:20:38.883, 20271889405177, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\ToD.Tests.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n    <TargetPlatform>X64</TargetPlatform>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v3.1</TargetFrameworkVersion>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"blame\" enabled=\"True\" />\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\5.0.404\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"blame\" enabled=\"True\">\r\n        <Configuration>\r\n          <ResultsDirectory>C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n        </Configuration>\r\n      </DataCollector>\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.884, 20271889416936, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.885, 20271889425898, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.885, 20271889429497, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.885, 20271889429914, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.888, 20271889452491, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.889, 20271889464616, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.889, 20271889465992, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.889, 20271889466338, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.889, 20271889466593, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.889, 20271889467120, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.890, 20271889475856, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.894, 20271889516008, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.visualstudio.dotnetcore.testadapter: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.894, 20271889517059, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.visualstudio.dotnetcore.testadapter: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.895, 20271889526801, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.visualstudio.dotnetcore.testadapter: Loading assembly 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.896, 20271889532104, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.visualstudio.dotnetcore.testadapter, from path: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.899, 20271889561787, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.utility.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.899, 20271889562491, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.utility.netcoreapp10: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.899, 20271889565123, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.utility.netcoreapp10: Loading assembly 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.utility.netcoreapp10.dll'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.899, 20271889569024, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.utility.netcoreapp10, from path: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.utility.netcoreapp10.dll
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.903, 20271889611101, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.904, 20271889614679, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.904, 20271889615303, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.904, 20271889615921, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.904, 20271889616433, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.904, 20271889616911, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:38.905, 20271889624748, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63230 localEndPoint: [::ffff:127.0.0.1]:63231
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.907, 20271889643163, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation2 TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor2
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.907, 20271889645178, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.907, 20271889645634, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.907, 20271889645916, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.907, 20271889647320, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.907, 20271889648181, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.907, 20271889648481, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.907, 20271889648777, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.907, 20271889649027, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.907, 20271889649291, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.907, 20271889650150, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.908, 20271889652358, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.908, 20271889652711, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.908, 20271889653038, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.908, 20271889653592, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.908, 20271889653879, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.908, 20271889654109, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.912, 20271889697203, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.912, 20271889698827, testhost.dll, TestExecutorExtensionManager: Loading executor Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.912, 20271889699206, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.913, 20271889707497, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestSettingsProviderPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ISettingsProvider
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.913, 20271889708265, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.913, 20271889708918, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.913, 20271889709691, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.913, 20271889711109, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.913, 20271889711463, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.914, 20271889711731, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.914, 20271889712083, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.914, 20271889712328, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.914, 20271889712592, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.914, 20271889713028, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.914, 20271889715246, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.914, 20271889715856, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.914, 20271889716314, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.914, 20271889716934, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.914, 20271889717590, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.914, 20271889717913, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.915, 20271889726522, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.915, 20271889726965, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.916, 20271889731607, testhost.dll, TestRequestHandler.OnMessageReceived: Running job 'TestExecution.StartWithSources'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.934, 20271889915674, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.Common.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.934, 20271889916543, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.Common.resources: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.934, 20271889917143, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.Common.resources: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\Microsoft.VisualStudio.TestPlatform.Common.resources.dll', returning.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.934, 20271889917608, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.Common.resources: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\Microsoft.VisualStudio.TestPlatform.Common.resources.exe', returning.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.934, 20271889917942, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.Common.resources: Failed to load assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.984, 20271890415689, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\ToD.Tests.dll
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.986, 20271890435205, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestDiscovererPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestDiscoverer
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.986, 20271890436748, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.986, 20271890437141, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.986, 20271890437903, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.986, 20271890439018, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.986, 20271890439507, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.986, 20271890439949, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.986, 20271890440195, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.986, 20271890440434, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.986, 20271890440813, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.986, 20271890441175, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.988, 20271890458353, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.988, 20271890459046, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.988, 20271890460079, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.ComponentModel.Primitives.resources.dll', returning.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.988, 20271890460553, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.ComponentModel.Primitives.resources.exe', returning.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.988, 20271890460918, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Failed to load assembly.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.989, 20271890463821, testhost.dll, CurrentDomainAssemblyResolve: Resolving assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.989, 20271890464660, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.989, 20271890465052, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolved from cache.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.989, 20271890465411, testhost.dll, CurrentDomainAssemblyResolve: Resolving assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.989, 20271890465731, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.990, 20271890473809, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.990, 20271890476372, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.990, 20271890476776, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolved from cache.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.990, 20271890477085, testhost.dll, CurrentDomainAssemblyResolve: Resolving assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.990, 20271890477346, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.991, 20271890485324, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.991, 20271890485969, testhost.dll, TestPluginCache: Discoverers are 'Xunit.Runner.VisualStudio.VsTestRunner, xunit.runner.visualstudio.dotnetcore.testadapter, Version=2.4.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c'.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.991, 20271890486356, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.991, 20271890486644, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.991, 20271890486896, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:38.991, 20271890487133, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:38.998, 20271890558021, testhost.dll, PEReaderHelper.GetAssemblyType: Determined assemblyType:'Managed' for source: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\ToD.Tests.dll'
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:39.004, 20271890614153, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.008, 20271890654232, testhost.dll, [xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET Core 3.1.22)
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:39.008, 20271890655419, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET Core 3.1.22)"}}
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.167, 20271892241810, testhost.dll, AssemblyResolver.OnResolve: System.Web.Extensions: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.167, 20271892242781, testhost.dll, AssemblyResolver.OnResolve: System.Web.Extensions: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.167, 20271892243454, testhost.dll, AssemblyResolver.OnResolve: System.Web.Extensions: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Web.Extensions.dll', returning.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.167, 20271892243989, testhost.dll, AssemblyResolver.OnResolve: System.Web.Extensions: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Web.Extensions.exe', returning.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.167, 20271892244698, testhost.dll, AssemblyResolver.OnResolve: System.Web.Extensions: Failed to load assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.167, 20271892251318, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.168, 20271892251827, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.168, 20271892252378, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Web.DataVisualization.dll', returning.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.168, 20271892252831, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Web.DataVisualization.exe', returning.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.168, 20271892253169, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Failed to load assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.168, 20271892254680, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.168, 20271892255023, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.168, 20271892256518, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.168, 20271892256849, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.168, 20271892258117, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.168, 20271892258438, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.169, 20271892268424, testhost.dll, AssemblyResolver.OnResolve: System.Drawing.Common: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.169, 20271892269143, testhost.dll, AssemblyResolver.OnResolve: System.Drawing.Common: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.169, 20271892271116, testhost.dll, AssemblyResolver.OnResolve: System.Drawing.Common: Loading assembly 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Drawing.Common.dll'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.170, 20271892277402, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: System.Drawing.Common, from path: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Drawing.Common.dll
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.191, 20271892482008, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.191, 20271892482848, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.191, 20271892483588, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Web.Http.dll', returning.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.191, 20271892484086, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Web.Http.exe', returning.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.191, 20271892484373, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Failed to load assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.191, 20271892486172, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.191, 20271892486521, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.191, 20271892487713, testhost.dll, AssemblyResolver.OnResolve: Ninject.Web.Common: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.191, 20271892488091, testhost.dll, AssemblyResolver.OnResolve: Ninject.Web.Common: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.191, 20271892488677, testhost.dll, AssemblyResolver.OnResolve: Ninject.Web.Common: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\Ninject.Web.Common.dll', returning.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.191, 20271892489137, testhost.dll, AssemblyResolver.OnResolve: Ninject.Web.Common: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\Ninject.Web.Common.exe', returning.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.191, 20271892489417, testhost.dll, AssemblyResolver.OnResolve: Ninject.Web.Common: Failed to load assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.192, 20271892492594, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.192, 20271892493186, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.192, 20271892494679, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.192, 20271892495039, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.192, 20271892496386, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.192, 20271892496728, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.192, 20271892497851, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.192, 20271892498163, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.192, 20271892499979, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.192, 20271892500337, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.192, 20271892501549, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.193, 20271892501886, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.193, 20271892503272, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.193, 20271892503604, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.193, 20271892508259, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.193, 20271892508684, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.193, 20271892510308, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.193, 20271892510672, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892512073, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892512417, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892513675, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892513997, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892515214, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892515536, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892516648, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892516971, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892517977, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892518295, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892519454, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892519785, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892520796, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.194, 20271892521118, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892522197, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892522518, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892523508, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892523826, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892524971, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892525338, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892526367, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892526688, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892527777, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892528121, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892529111, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892529681, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892530772, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.195, 20271892531096, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.196, 20271892532098, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.196, 20271892532416, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.424, 20271894819840, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.425, 20271894822390, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.425, 20271894824124, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.425, 20271894824477, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.425, 20271894825651, testhost.dll, AssemblyResolver.OnResolve: Ninject.Web.Common: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.425, 20271894825970, testhost.dll, AssemblyResolver.OnResolve: Ninject.Web.Common: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.425, 20271894827096, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.425, 20271894827408, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.425, 20271894828509, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.425, 20271894828815, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.425, 20271894830012, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.425, 20271894830327, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.425, 20271894831396, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894831705, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894832870, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894833248, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894834381, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894834690, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894835771, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894836078, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894837133, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894837443, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894838363, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894838670, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894839862, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894840186, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.426, 20271894841323, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894841638, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894842723, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894843033, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894843968, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894844277, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894845194, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894845497, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894846405, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894846709, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894847602, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894847906, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894848806, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894849110, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894850089, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894850423, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.427, 20271894851371, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.428, 20271894851679, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.428, 20271894852572, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.428, 20271894852877, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.428, 20271894853774, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.428, 20271894854078, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.428, 20271894854971, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.428, 20271894855273, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.428, 20271894856166, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.428, 20271894856472, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.428, 20271894857380, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.428, 20271894857684, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.429, 20271894866311, testhost.dll, AssemblyResolver.OnResolve: System.Web.Extensions: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.429, 20271894866694, testhost.dll, AssemblyResolver.OnResolve: System.Web.Extensions: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.429, 20271894868008, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.429, 20271894868349, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.429, 20271894869649, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.429, 20271894869991, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.429, 20271894871203, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.429, 20271894871530, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.430, 20271894872706, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.430, 20271894873024, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.433, 20271894906329, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.reporters.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.433, 20271894906889, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.reporters.netcoreapp10: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.433, 20271894909691, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.reporters.netcoreapp10: Loading assembly 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.reporters.netcoreapp10.dll'.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.434, 20271894912897, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.reporters.netcoreapp10, from path: C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.reporters.netcoreapp10.dll
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.459, 20271895168216, testhost.dll, AssemblyResolver.OnResolve: System.Web.Extensions: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.459, 20271895168981, testhost.dll, AssemblyResolver.OnResolve: System.Web.Extensions: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.459, 20271895170630, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.459, 20271895170991, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.460, 20271895172208, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.460, 20271895172530, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.460, 20271895173695, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.460, 20271895174014, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.460, 20271895175161, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.460, 20271895175470, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.461, 20271895187787, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.461, 20271895188196, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.461, 20271895189635, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.461, 20271895189971, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.461, 20271895191076, testhost.dll, AssemblyResolver.OnResolve: Ninject.Web.Common: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.461, 20271895191385, testhost.dll, AssemblyResolver.OnResolve: Ninject.Web.Common: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895192449, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895192753, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895193774, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895194073, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895195181, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895195508, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895196548, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895196843, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895197970, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895198283, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895199415, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895199727, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895200793, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.462, 20271895201098, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895202052, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895202352, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895203244, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895203542, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895204615, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895204924, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895206020, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895206326, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895207372, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895207673, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895208568, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895208874, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895209836, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895210143, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895211017, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.463, 20271895211322, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895212195, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895212954, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895213935, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895214248, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895215147, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895215445, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895216319, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895216621, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895217491, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895217790, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895218653, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895218955, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895220191, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895220640, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.464, 20271895221512, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.465, 20271895221818, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.465, 20271895222700, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.465, 20271895222993, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.474, 20271895320121, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.474, 20271895321037, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895322545, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895322861, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895323944, testhost.dll, AssemblyResolver.OnResolve: Ninject.Web.Common: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895324245, testhost.dll, AssemblyResolver.OnResolve: Ninject.Web.Common: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895325304, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895325594, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895326610, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895326959, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895328013, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895328306, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895329429, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895329927, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895331214, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.475, 20271895331518, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895332591, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895332885, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895333914, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895334204, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895335119, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895335413, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895336271, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895336559, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895337615, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895337914, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895338993, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895339339, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895340396, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895340689, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.476, 20271895341551, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895341839, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895342696, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895342985, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895343827, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895344140, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895345043, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895345332, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895346176, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895346462, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895347317, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895347601, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895348445, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895348731, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895349641, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895349936, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895350779, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.477, 20271895351085, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.478, 20271895351932, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.478, 20271895352217, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.478, 20271895353059, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.478, 20271895353347, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.478, 20271895354193, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.478, 20271895354479, testhost.dll, AssemblyResolver.OnResolve: System.Web.Http: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.482, 20271895392052, testhost.dll, AssemblyResolver.OnResolve: System.Web.Extensions: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.482, 20271895392785, testhost.dll, AssemblyResolver.OnResolve: System.Web.Extensions: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.482, 20271895394350, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.482, 20271895394675, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.482, 20271895395887, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.482, 20271895396197, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.482, 20271895397332, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.482, 20271895397672, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.482, 20271895398832, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolving assembly.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.482, 20271895399135, testhost.dll, AssemblyResolver.OnResolve: System.Web.DataVisualization: Resolved from cache.
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.512, 20271895700526, testhost.dll, [xUnit.net 00:00:00.50]   Discovering: ToD.Tests
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:39.513, 20271895703483, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.50]   Discovering: ToD.Tests"}}
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.554, 20271896119680, testhost.dll, [xUnit.net 00:00:00.54]   Discovered:  ToD.Tests
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:39.555, 20271896121636, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.54]   Discovered:  ToD.Tests"}}
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:39.557, 20271896142180, testhost.dll, [xUnit.net 00:00:00.55]   Starting:    ToD.Tests
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:39.557, 20271896143193, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.55]   Starting:    ToD.Tests"}}
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:39.597, 20271896548346, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: ToD.Tests.DALTest.TakesId_ShouldReturnName.
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:39.622, 20271896798394, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.769, 20271898267468, testhost.dll, AssemblyResolver.OnResolve: System.Data.Common.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 15, 2022/01/10, 10:20:39.769, 20271898267498, testhost.dll, AssemblyResolver.OnResolve: System.Data.Common.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.769, 20271898268816, testhost.dll, AssemblyResolver.OnResolve: System.Data.Common.resources: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.769, 20271898270491, testhost.dll, AssemblyResolver.OnResolve: System.Data.Common.resources: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Data.Common.resources.dll', returning.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.769, 20271898270961, testhost.dll, AssemblyResolver.OnResolve: System.Data.Common.resources: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Data.Common.resources.exe', returning.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.769, 20271898271241, testhost.dll, AssemblyResolver.OnResolve: System.Data.Common.resources: Failed to load assembly.
+TpTrace Information: 0 : 3208, 15, 2022/01/10, 10:20:39.770, 20271898272060, testhost.dll, AssemblyResolver.OnResolve: System.Data.Common.resources: Resolved from cache.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.770, 20271898272813, testhost.dll, AssemblyResolver.OnResolve: System.Data.Common.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.770, 20271898273191, testhost.dll, AssemblyResolver.OnResolve: System.Data.Common.resources: Resolved from cache.
+TpTrace Information: 0 : 3208, 15, 2022/01/10, 10:20:39.770, 20271898273264, testhost.dll, AssemblyResolver.OnResolve: System.Data.Common.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 15, 2022/01/10, 10:20:39.770, 20271898273974, testhost.dll, AssemblyResolver.OnResolve: System.Data.Common.resources: Resolved from cache.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.836, 20271898939558, testhost.dll, AssemblyResolver.OnResolve: System.Data.SqlClient.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.836, 20271898940899, testhost.dll, AssemblyResolver.OnResolve: System.Data.SqlClient.resources: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.836, 20271898941468, testhost.dll, AssemblyResolver.OnResolve: System.Data.SqlClient.resources: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Data.SqlClient.resources.dll', returning.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.837, 20271898941936, testhost.dll, AssemblyResolver.OnResolve: System.Data.SqlClient.resources: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Data.SqlClient.resources.exe', returning.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.837, 20271898942230, testhost.dll, AssemblyResolver.OnResolve: System.Data.SqlClient.resources: Failed to load assembly.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.837, 20271898943576, testhost.dll, AssemblyResolver.OnResolve: System.Data.SqlClient.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.837, 20271898943913, testhost.dll, AssemblyResolver.OnResolve: System.Data.SqlClient.resources: Resolved from cache.
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:39.913, 20271899701682, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63230 localEndPoint: [::ffff:127.0.0.1]:63231
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.953, 20271900111070, testhost.dll, AssemblyResolver.OnResolve: System.Private.Xml.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.954, 20271900112152, testhost.dll, AssemblyResolver.OnResolve: System.Private.Xml.resources: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.954, 20271900112732, testhost.dll, AssemblyResolver.OnResolve: System.Private.Xml.resources: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Private.Xml.resources.dll', returning.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.954, 20271900113197, testhost.dll, AssemblyResolver.OnResolve: System.Private.Xml.resources: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\System.Private.Xml.resources.exe', returning.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.954, 20271900113476, testhost.dll, AssemblyResolver.OnResolve: System.Private.Xml.resources: Failed to load assembly.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.954, 20271900114870, testhost.dll, AssemblyResolver.OnResolve: System.Private.Xml.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:39.954, 20271900115239, testhost.dll, AssemblyResolver.OnResolve: System.Private.Xml.resources: Resolved from cache.
+TpTrace Information: 0 : 3208, 13, 2022/01/10, 10:20:40.435, 20271904931337, testhost.dll, Sending test run statistics
+TpTrace Verbose: 0 : 3208, 13, 2022/01/10, 10:20:40.455, 20271905126582, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[],"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"ActiveTests":[{"Id":"9bf4c141-8e1a-17f2-f912-2ffcb4cadfd3","FullyQualifiedName":"ToD.Tests.DALTest.TakesId_ShouldReturnName","DisplayName":"ToD.Tests.DALTest.TakesId_ShouldReturnName(id: 1)","ExecutorUri":"executor://xunit/VsTestRunner2/netcoreapp","Source":"C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\ToD.Tests.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},{"Id":"1160b398-0391-6b6b-2987-7a30b05916f8","FullyQualifiedName":"ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork","DisplayName":"ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork(showid: 1, Seat: 5)","ExecutorUri":"executor://xunit/VsTestRunner2/netcoreapp","Source":"C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\ToD.Tests.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]}]}}
+TpTrace Verbose: 0 : 3208, 13, 2022/01/10, 10:20:40.455, 20271905128463, testhost.dll, TestRunCache: OnNewTestResult: Notified the onCacheHit callback.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:40.773, 20271908302312, testhost.dll, AssemblyResolver.OnResolve: EntityFramework.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:40.773, 20271908303209, testhost.dll, AssemblyResolver.OnResolve: EntityFramework.resources: Searching in: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:40.773, 20271908303821, testhost.dll, AssemblyResolver.OnResolve: EntityFramework.resources: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\EntityFramework.resources.dll', returning.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:40.773, 20271908304290, testhost.dll, AssemblyResolver.OnResolve: EntityFramework.resources: Assembly path does not exist: 'C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\EntityFramework.resources.exe', returning.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:40.773, 20271908304560, testhost.dll, AssemblyResolver.OnResolve: EntityFramework.resources: Failed to load assembly.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:40.778, 20271908361078, testhost.dll, AssemblyResolver.OnResolve: EntityFramework.resources: Resolving assembly.
+TpTrace Information: 0 : 3208, 17, 2022/01/10, 10:20:40.779, 20271908362166, testhost.dll, AssemblyResolver.OnResolve: EntityFramework.resources: Resolved from cache.
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:40.921, 20271909782061, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63230 localEndPoint: [::ffff:127.0.0.1]:63231
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.132, 20271911896497, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: ToD.Tests.DALTest.TakesId_ShouldReturnName.
+TpTrace Warning: 0 : 3208, 14, 2022/01/10, 10:20:41.148, 20271912054325, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 3208, 14, 2022/01/10, 10:20:41.148, 20271912055785, testhost.dll, TestRunCache: No test found corresponding to testResult 'ToD.Tests.DALTest.TakesId_ShouldReturnName(id: 1)' in inProgress list.
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.148, 20271912061552, testhost.dll, TestExecutionRecorder.RecordEnd: test: ToD.Tests.DALTest.TakesId_ShouldReturnName execution completed.
+TpTrace Warning: 0 : 3208, 14, 2022/01/10, 10:20:41.149, 20271912062153, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.149, 20271912062951, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: ToD.Tests.DALTest.ShowRepo_CreatesNewShow.
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.150, 20271912072210, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: ToD.Tests.DALTest.ShowRepo_CreatesNewShow.
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.151, 20271912081834, testhost.dll, TestExecutionRecorder.RecordEnd: test: ToD.Tests.DALTest.ShowRepo_CreatesNewShow execution completed.
+TpTrace Warning: 0 : 3208, 14, 2022/01/10, 10:20:41.151, 20271912082429, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.151, 20271912082886, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: ToD.Tests.DALTest.ShowRepo_UpdateShowINDatabase.
+TpTrace Error: 0 : 3208, 14, 2022/01/10, 10:20:41.156, 20271912136570, testhost.dll, [xUnit.net 00:00:02.15]     ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork(showid: 1, Seat: 5) [FAIL]
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.156, 20271912137730, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":2,"Message":"[xUnit.net 00:00:02.15]     ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork(showid: 1, Seat: 5) [FAIL]"}}
+TpTrace Information: 0 : 3208, 14, 2022/01/10, 10:20:41.157, 20271912144790, testhost.dll, [xUnit.net 00:00:02.15]       System.InvalidCastException : Unable to cast object of type 'System.Data.Entity.Infrastructure.DbQuery`1[DAL.Entities.Ticket]' to type 'System.Collections.Generic.List`1[DAL.Entities.Ticket]'.
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.157, 20271912145816, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.15]       System.InvalidCastException : Unable to cast object of type 'System.Data.Entity.Infrastructure.DbQuery`1[DAL.Entities.Ticket]' to type 'System.Collections.Generic.List`1[DAL.Entities.Ticket]'."}}
+TpTrace Information: 0 : 3208, 14, 2022/01/10, 10:20:41.158, 20271912152326, testhost.dll, [xUnit.net 00:00:02.15]       Stack Trace:
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.158, 20271912153335, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.15]       Stack Trace:"}}
+TpTrace Information: 0 : 3208, 14, 2022/01/10, 10:20:41.158, 20271912157358, testhost.dll, [xUnit.net 00:00:02.15]         C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\DAL\Repositories\TicketRepository.cs(63,0): at DAL.Repositories.TicketRepository.GetFrom1Show1(Int32 id)
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.158, 20271912158201, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.15]         C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\Repositories\\TicketRepository.cs(63,0): at DAL.Repositories.TicketRepository.GetFrom1Show1(Int32 id)"}}
+TpTrace Information: 0 : 3208, 14, 2022/01/10, 10:20:41.158, 20271912159151, testhost.dll, [xUnit.net 00:00:02.15]         C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\BLL\Servises\OrderServise.cs(25,0): at BLL.Servises.OrderService.BookTicket(Int32 showId, Int32 seat)
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.158, 20271912159707, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.15]         C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\Servises\\OrderServise.cs(25,0): at BLL.Servises.OrderService.BookTicket(Int32 showId, Int32 seat)"}}
+TpTrace Information: 0 : 3208, 14, 2022/01/10, 10:20:41.158, 20271912160421, testhost.dll, [xUnit.net 00:00:02.15]         C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\ToD.Tests\BLL.Test.cs(23,0): at ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork(Int32 showid, Int32 Seat)
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.158, 20271912160939, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.15]         C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\BLL.Test.cs(23,0): at ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork(Int32 showid, Int32 Seat)"}}
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.159, 20271912170967, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork.
+TpTrace Warning: 0 : 3208, 14, 2022/01/10, 10:20:41.160, 20271912180463, testhost.dll, TestRunCache: No test found corresponding to testResult 'ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork(showid: 1, Seat: 5)' in inProgress list.
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.160, 20271912181399, testhost.dll, TestExecutionRecorder.RecordEnd: test: ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork execution completed.
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.240, 20271912974537, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: ToD.Tests.DALTest.ShowRepo_UpdateShowINDatabase.
+TpTrace Verbose: 0 : 3208, 14, 2022/01/10, 10:20:41.241, 20271912984322, testhost.dll, TestExecutionRecorder.RecordEnd: test: ToD.Tests.DALTest.ShowRepo_UpdateShowINDatabase execution completed.
+TpTrace Warning: 0 : 3208, 14, 2022/01/10, 10:20:41.241, 20271912984933, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:41.242, 20271912996729, testhost.dll, [xUnit.net 00:00:02.23]   Finished:    ToD.Tests
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:41.242, 20271912997596, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:02.23]   Finished:    ToD.Tests"}}
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:41.246, 20271913031929, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Information: 0 : 3208, 4, 2022/01/10, 10:20:41.248, 20271913052351, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:41.262, 20271913196772, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":4,"Stats":{"Passed":3,"Failed":1}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:02.2462061","Metrics":{}},"LastRunTests":{"NewTestResults":[{"TestCase":{"Id":"9bf4c141-8e1a-17f2-f912-2ffcb4cadfd3","FullyQualifiedName":"ToD.Tests.DALTest.TakesId_ShouldReturnName","DisplayName":"ToD.Tests.DALTest.TakesId_ShouldReturnName(id: 1)","ExecutorUri":"executor://xunit/VsTestRunner2/netcoreapp","Source":"C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\ToD.Tests.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"ToD.Tests.DALTest.TakesId_ShouldReturnName(id: 1)","Messages":[],"ComputerName":"DESKTOP-8NQ4BUR","Duration":"00:00:01.5187638","StartTime":"2022-01-10T08:20:41.1321348+00:00","EndTime":"2022-01-10T08:20:41.1321698+00:00","Properties":[]},{"TestCase":{"Id":"67f87911-445a-9f9a-c87a-8fd717dbff08","FullyQualifiedName":"ToD.Tests.DALTest.ShowRepo_CreatesNewShow","DisplayName":"ToD.Tests.DALTest.ShowRepo_CreatesNewShow","ExecutorUri":"executor://xunit/VsTestRunner2/netcoreapp","Source":"C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\ToD.Tests.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"ToD.Tests.DALTest.ShowRepo_CreatesNewShow","Messages":[],"ComputerName":"DESKTOP-8NQ4BUR","Duration":"00:00:00.0104328","StartTime":"2022-01-10T08:20:41.1500445+00:00","EndTime":"2022-01-10T08:20:41.1500468+00:00","Properties":[]},{"TestCase":{"Id":"1160b398-0391-6b6b-2987-7a30b05916f8","FullyQualifiedName":"ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork","DisplayName":"ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork(showid: 1, Seat: 5)","ExecutorUri":"executor://xunit/VsTestRunner2/netcoreapp","Source":"C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\ToD.Tests.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":2,"ErrorMessage":"System.InvalidCastException : Unable to cast object of type 'System.Data.Entity.Infrastructure.DbQuery`1[DAL.Entities.Ticket]' to type 'System.Collections.Generic.List`1[DAL.Entities.Ticket]'.","ErrorStackTrace":"   at DAL.Repositories.TicketRepository.GetFrom1Show1(Int32 id) in C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\DAL\\Repositories\\TicketRepository.cs:line 63\r\n   at BLL.Servises.OrderService.BookTicket(Int32 showId, Int32 seat) in C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\BLL\\Servises\\OrderServise.cs:line 25\r\n   at ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork(Int32 showid, Int32 Seat) in C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\BLL.Test.cs:line 23","DisplayName":"ToD.Tests.BLLTest.BookTicket_AndCheck_UnitOfWork(showid: 1, Seat: 5)","Messages":[],"ComputerName":"DESKTOP-8NQ4BUR","Duration":"00:00:01.5317757","StartTime":"2022-01-10T08:20:41.1597853+00:00","EndTime":"2022-01-10T08:20:41.1597875+00:00","Properties":[]},{"TestCase":{"Id":"f0448ab8-2487-0ead-c1f2-a644f6815dcf","FullyQualifiedName":"ToD.Tests.DALTest.ShowRepo_UpdateShowINDatabase","DisplayName":"ToD.Tests.DALTest.ShowRepo_UpdateShowINDatabase","ExecutorUri":"executor://xunit/VsTestRunner2/netcoreapp","Source":"C:\\Users\\asus\\Documents\\GitHub\\Theatre\\TheatreOfDreams\\ToD.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\ToD.Tests.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"ToD.Tests.DALTest.ShowRepo_UpdateShowINDatabase","Messages":[],"ComputerName":"DESKTOP-8NQ4BUR","Duration":"00:00:00.0980283","StartTime":"2022-01-10T08:20:41.2402812+00:00","EndTime":"2022-01-10T08:20:41.2402832+00:00","Properties":[]}],"TestRunStatistics":{"ExecutedTests":4,"Stats":{"Passed":3,"Failed":1}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":["executor://xunit/VsTestRunner2/netcoreapp"]}}
+TpTrace Verbose: 0 : 3208, 4, 2022/01/10, 10:20:41.262, 20271913200192, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:41.263, 20271913207509, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:63230 localEndPoint: [::ffff:127.0.0.1]:63231
+TpTrace Information: 0 : 3208, 9, 2022/01/10, 10:20:41.263, 20271913208873, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 3208, 9, 2022/01/10, 10:20:41.263, 20271913209255, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 3208, 9, 2022/01/10, 10:20:41.264, 20271913212530, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:063230
+TpTrace Information: 0 : 3208, 9, 2022/01/10, 10:20:41.264, 20271913212917, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:41.264, 20271913213822, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 3208, 9, 2022/01/10, 10:20:41.264, 20271913214231, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 3208, 9, 2022/01/10, 10:20:41.264, 20271913215803, testhost.dll, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:063230, error:
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:41.264, 20271913217715, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 3208, 1, 2022/01/10, 10:20:41.264, 20271913217832, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 3208, 1, 2022/01/10, 10:20:41.264, 20271913219000, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:063230
+TpTrace Verbose: 0 : 3208, 9, 2022/01/10, 10:20:41.264, 20271913219122, testhost.dll, TcpClientExtensions.MessageLoopAsync: exiting MessageLoopAsync remoteEndPoint: [::ffff:127.0.0.1]:63230 localEndPoint: [::ffff:127.0.0.1]:63231
+TpTrace Verbose: 0 : 3208, 1, 2022/01/10, 10:20:41.264, 20271913220231, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 3208, 1, 2022/01/10, 10:20:41.265, 20271913221753, testhost.dll, Testhost process exiting.

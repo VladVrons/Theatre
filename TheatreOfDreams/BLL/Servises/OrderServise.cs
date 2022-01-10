@@ -22,7 +22,7 @@ namespace BLL.Servises
             
             if (show == null)
                 throw new ValidationException("Шоу не найдено", "");
-            show.Tickets = Database.Tickets.GetFrom1Show1(showId);
+            show.Tickets = (List<Ticket>)Database.Tickets.GetFrom1Show1(showId);
             show.Tickets[seat].Status = 1;
             
             Database.Tickets.Update(show.Tickets[seat]);

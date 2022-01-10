@@ -1,5 +1,0 @@
-C:\Users\asus\source\repos\TheatreOfDreams\TheatreOfDreams\obj\Debug\netcoreapp3.1\PL.csproj.AssemblyReference.cache
-C:\Users\asus\source\repos\TheatreOfDreams\TheatreOfDreams\obj\Debug\netcoreapp3.1\PL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\asus\source\repos\TheatreOfDreams\TheatreOfDreams\obj\Debug\netcoreapp3.1\PL.AssemblyInfoInputs.cache
-C:\Users\asus\source\repos\TheatreOfDreams\TheatreOfDreams\obj\Debug\netcoreapp3.1\PL.AssemblyInfo.cs
-C:\Users\asus\source\repos\TheatreOfDreams\TheatreOfDreams\obj\Debug\netcoreapp3.1\PL.csproj.CoreCompileInputs.cache

@@ -44,7 +44,19 @@ namespace ToD.Tests
             show.Author = "Me";
             showrepo.Update(show);
             db.SaveChanges();
-            Assert.Equal("Me", showrepo.Get(3).Name);
+            Assert.Equal("Me", showrepo.Get(3).Author);
+        }
+
+        [Fact]
+        public void ShowRepo_GetAllTicketsFrom1Show()
+        {
+            ShowContext db = new ShowContext("DefaultConnection");
+            ShowRepository showrepo = new ShowRepository(db);
+            Show show = showrepo.Get(3);
+            show.Author = "Me";
+            showrepo.Update(show);
+            db.SaveChanges();
+            Assert.Equal("Me", showrepo.Get(3).Author);
         }
 
     }
