@@ -28,13 +28,16 @@ namespace DAL.EF
             db.Shows.Add(new Show { id = 1, Name = "Hamlet", Author = "W.Shakespeare", Genre = "Drama", Date = new DateTime(2008, 3, 1, 7, 0, 0), Size = 400 }); ;
             db.Shows.Add(new Show { id = 2, Name = "Romeo and Juliet", Author = "W.Shakespeare", Genre = "Tragedy", Date = new DateTime(2008, 3, 1, 7, 0, 0), Size = 400 });
             db.Shows.Add(new Show { id = 3, Name = "The Nutcracker", Author = "E.Hofman", Genre = "Drama", Date = new DateTime(2008, 3, 1, 7, 0, 0), Size = 400 });
-            db.Shows.Add(new Show { id = 4, Name = "Inferno", Author = "R.Castellucci ", Genre = "Drama", Date = new DateTime(2008, 3, 1, 7, 0, 0), Size = 400});
+            db.Shows.Add(new Show { id = 4, Name = "Inferno", Author = "R.Castellucci ", Genre = "Drama", Date = new DateTime(2008, 3, 1, 7, 0, 0), Size = 400 });
+            db.Dispose();
 
             for (int i = 1; i <= 5; i++)
             {
                 db.Tickets.Add(new Ticket { showid = 1, Seat = i, Price = 200, Status = 0 });
             }
-                db.SaveChanges();
+            db.SaveChanges();
+           
+
         }
     }
 }

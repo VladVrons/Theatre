@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace DAL.Entities
 {
@@ -10,8 +7,13 @@ namespace DAL.Entities
         
         public int showid { get; set; }
         public int Price { get; set; }
+
         [Key]
         public int Seat { get; set; }
         public int Status { get; set; }
+        public Ticket()
+        {
+
+        }
     }
 }

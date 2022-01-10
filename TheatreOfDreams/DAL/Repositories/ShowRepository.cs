@@ -48,10 +48,11 @@ namespace DAL.Repositories
                 db.Shows.Remove(show);
         }
 
-        public List<Ticket> GetFrom1Show1(int id)
+        public IEnumerable<Ticket> GetFrom1Show1(int id)
         {
             TicketRepository trep = new TicketRepository(db);
             return trep.GetFrom1Show1(id);
         }
+
     }
 }

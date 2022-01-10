@@ -3,6 +3,8 @@ using DAL.Entities;
 using DAL.Repositories;
 using System.Collections.Generic;
 using Xunit;
+using System.Linq;
+using System.Data.Entity;
 
 namespace ToD.Tests
 {
@@ -49,13 +51,48 @@ namespace ToD.Tests
         }
 
         [Fact]
-        public void ShowRepo_GetAllTicketsFrom1Show()
+        public void ShowRepo_GetAllShows()
         {
             ShowContext db = new ShowContext("DefaultConnection");
             ShowRepository showrepo = new ShowRepository(db);
-            List<Ticket> shows = showrepo.GetFrom1Show1(1);
+            var shows = showrepo.GetAll();
+            //List<Ticket> t = tickets.ToList();
+
+            Assert.Equal(4, shows.Count());
+        }
+
+        [Fact]
+        public void TicketRepo_GetAllTickets()
+        {
+            ShowContext db = new ShowContext("DefaultConnection");
+
+            TicketRepository ticketrepo = new TicketRepository(db);
+
+            //List<Ticket> t = tickets.ToList();
+            db.Dispose();
+            Assert.Equal(0,ticketrepo.GetAll().Count());
+        }
+
+        [Fact]
+        public void CreateNewTicket()
+        {
+            ShowContext db = new ShowContext("DefaultConnection");
+
+            TicketRepository ticketrepo = new TicketRepository(db);
+            ticketrepo.Create(new Ticket { showid = 1, Price = 200, Seat = 2, Status = 2 });
+
+            Assert.Equal(2, ticketrepo.GetAll().Count());
+        }
+
+        [Fact]
+        public void ShowRepo_GetAllTicketsFrom1Show()
+        {
+            ShowContext db = new ShowContext("DefaultConnection");
+            TicketRepository showrepo = new TicketRepository(db);
+            var tickets = showrepo.GetFrom1Show1(1);
+            List<Ticket>t = tickets.ToList();
             
-            Assert.Equal(5, shows.Count);
+            Assert.Equal(3, tickets.Count());
         }
 
     }

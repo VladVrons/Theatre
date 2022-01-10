@@ -20,7 +20,6 @@ namespace DAL.Repositories
 
         public IEnumerable<Ticket> GetAll()
         {
-
             return db.Tickets;
         }
 
@@ -53,14 +52,15 @@ namespace DAL.Repositories
                 db.Tickets.Remove(ticket);
         }
 
-        public List<Ticket> GetFrom1Show1(int id)
+        public IEnumerable<Ticket> GetFrom1Show1(int id)
         {
-            IEnumerable<Ticket> tickets
+            /*IEnumerable<Ticket> tickets
             = from ticket in db.Tickets
               where ticket.showid == id
-              select ticket;
+              select ticket;*/
 
-            return (List<Ticket>)tickets;
+            var tickets = db.Tickets.Where(x => x.showid == id);
+            return tickets;
         }
 
     }
