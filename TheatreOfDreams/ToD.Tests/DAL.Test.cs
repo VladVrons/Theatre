@@ -10,14 +10,14 @@ namespace ToD.Tests
 {
     public class DALTest
     {
-
+        public ShowContext db = new ShowContext("DefaultConnection");
         public DALTest() { }
 
         [Theory]
         [InlineData(1)]
         public void TakesId_ShouldReturnName(int id)
         {
-            ShowContext db = new ShowContext("DefaultConnection");
+          
             ShowRepository showrepo= new ShowRepository(db);
             Show show = showrepo.Get(id);
             Assert.Equal("Hamlet", show.Name);
@@ -26,7 +26,7 @@ namespace ToD.Tests
         [Fact]
         public void ShowRepo_CreatesNewShow()
         {
-            ShowContext db = new ShowContext("DefaultConnection");
+           
             ShowRepository showrepo = new ShowRepository(db);
             Show show = new Show
             {
@@ -41,7 +41,6 @@ namespace ToD.Tests
         [Fact]
         public void ShowRepo_UpdateShowINDatabase()
         {
-            ShowContext db = new ShowContext("DefaultConnection");
             ShowRepository showrepo = new ShowRepository(db);
             Show show = showrepo.Get(3);
             show.Author = "Me";
@@ -52,20 +51,17 @@ namespace ToD.Tests
 
         [Fact]
         public void ShowRepo_GetAllShows()
-        {
-            ShowContext db = new ShowContext("DefaultConnection");
+        {            
             ShowRepository showrepo = new ShowRepository(db);
             var shows = showrepo.GetAll();
             //List<Ticket> t = tickets.ToList();
-
             Assert.Equal(4, shows.Count());
         }
 
         [Fact]
         public void TicketRepo_GetAllTickets()
         {
-            ShowContext db = new ShowContext("DefaultConnection");
-
+           
             TicketRepository ticketrepo = new TicketRepository(db);
 
             //List<Ticket> t = tickets.ToList();
@@ -76,8 +72,7 @@ namespace ToD.Tests
         [Fact]
         public void CreateNewTicket()
         {
-            ShowContext db = new ShowContext("DefaultConnection");
-
+           
             TicketRepository ticketrepo = new TicketRepository(db);
             ticketrepo.Create(new Ticket { showid = 1, Price = 200, Seat = 2, Status = 2 });
 
@@ -87,7 +82,6 @@ namespace ToD.Tests
         [Fact]
         public void ShowRepo_GetAllTicketsFrom1Show()
         {
-            ShowContext db = new ShowContext("DefaultConnection");
             TicketRepository showrepo = new TicketRepository(db);
             var tickets = showrepo.GetFrom1Show1(1);
             List<Ticket>t = tickets.ToList();

@@ -1,3 +1,4 @@
+using DAL.EF;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,12 @@ namespace PL
     static class Program
     {
 
-        
+
         static void Main()
         {
-            
+            ShowContext db = new ShowContext("DefaultConnection");
+            db.Dispose();
         }
     }
+    
 }

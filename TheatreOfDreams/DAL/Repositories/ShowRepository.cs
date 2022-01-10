@@ -16,6 +16,7 @@ namespace DAL.Repositories
         public ShowRepository(ShowContext context)
         {
             this.db = context;
+            
         }
 
         public IEnumerable<Show> GetAll()
