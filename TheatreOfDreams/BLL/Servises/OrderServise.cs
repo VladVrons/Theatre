@@ -4,6 +4,7 @@ using DAL.Entities;
 using DAL.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace BLL.Servises
@@ -19,13 +20,13 @@ namespace BLL.Servises
         public void BookTicket(int showId, int seat)
         {
             Show show = Database.Shows.Get(showId);
-            
+           
             if (show == null)
                 throw new ValidationException("Шоу не найдено", "");
-            show.Tickets = (List<Ticket>)Database.Tickets.GetFrom1Show1(showId);
-            show.Tickets[seat].Status = 1;
+            show.Tickets = Database.Tickets.GetFrom1Show1(showId);
+            var ticket = show.Tickets.Where(x => x.Seat == seat);
             
-            Database.Tickets.Update(show.Tickets[seat]);
+            Database.Tickets.Update(ticket.First());
             Database.Save();
         }
 
@@ -53,9 +54,9 @@ namespace BLL.Servises
             if (show == null)
                 throw new ValidationException("Шоу не найдено", "");
             
-            show.Tickets[seat].Status = 2;
+            //show.Tickets[seat].Status = 2;
             
-            Database.Tickets.Update(show.Tickets[seat]);
+            //Database.Tickets.Update(show.Tickets[seat]);
             Database.Save();
         }
 

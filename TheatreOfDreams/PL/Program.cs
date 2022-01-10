@@ -13,8 +13,8 @@ namespace PL
 
         static void Main()
         {
-            ShowContext db = new ShowContext("DefaultConnection");
-            db.Dispose();
+            ShowContext db = new ShowContext("Connection");
+            
         }
     }
     

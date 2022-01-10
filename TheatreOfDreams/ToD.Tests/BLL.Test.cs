@@ -17,7 +17,7 @@ namespace ToD.Tests
         [InlineData(1, 5)]
         public void BookTicket_AndCheck_UnitOfWork(int showid, int Seat)
         {
-            IUnitOfWork uow = new EFUnitOfWork("DefaultConnection");
+            IUnitOfWork uow = new EFUnitOfWork("Connection");
             IOrderService orderService = new OrderService(uow);
             var showDto = orderService.GetShow(showid);
             orderService.BookTicket(showDto.id, Seat);

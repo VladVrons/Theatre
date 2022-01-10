@@ -27,6 +27,7 @@ namespace DAL.Repositories
 
         public Ticket Get(int seat)
         {
+            
             return db.Tickets.Find(seat);
         }
 

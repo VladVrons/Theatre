@@ -10,7 +10,7 @@ namespace ToD.Tests
 {
     public class DALTest
     {
-        public ShowContext db = new ShowContext("DefaultConnection");
+        public ShowContext db = new ShowContext("Connection");
         public DALTest() { }
 
         [Theory]
@@ -61,32 +61,39 @@ namespace ToD.Tests
         [Fact]
         public void TicketRepo_GetAllTickets()
         {
-           
-            TicketRepository ticketrepo = new TicketRepository(db);
-
-            //List<Ticket> t = tickets.ToList();
-            db.Dispose();
-            Assert.Equal(0,ticketrepo.GetAll().Count());
+            TicketRepository ticketrepo = new TicketRepository(db);          
+            Assert.Equal(5,ticketrepo.GetAll().Count());
         }
 
         [Fact]
         public void CreateNewTicket()
         {
-           
             TicketRepository ticketrepo = new TicketRepository(db);
-            ticketrepo.Create(new Ticket { showid = 1, Price = 200, Seat = 2, Status = 2 });
-
-            Assert.Equal(2, ticketrepo.GetAll().Count());
+            Ticket ticket = new Ticket
+            {
+                showid = 2,
+                Price = 250,
+                Seat = 8,
+                Status = 0
+            };
+            ticketrepo.Create(ticket);
+            Assert.Equal(250, ticketrepo.Get(8).Price);
         }
 
         [Fact]
         public void ShowRepo_GetAllTicketsFrom1Show()
         {
-            TicketRepository showrepo = new TicketRepository(db);
-            var tickets = showrepo.GetFrom1Show1(1);
-            List<Ticket>t = tickets.ToList();
-            
-            Assert.Equal(3, tickets.Count());
+            TicketRepository ticketrepo = new TicketRepository(db);
+            Ticket ticket = new Ticket
+            {
+                showid = 2,
+                Price = 250,
+                Seat = 8,
+                Status = 0
+            };
+            ticketrepo.Create(ticket);
+            var tickets = ticketrepo.GetFrom1Show1(1);
+            Assert.Equal(5, tickets.Count());
         }
 
     }
