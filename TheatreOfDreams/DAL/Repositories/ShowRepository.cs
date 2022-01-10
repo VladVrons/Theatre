@@ -50,7 +50,8 @@ namespace DAL.Repositories
 
         public List<Ticket> GetFrom1Show1(int id)
         {
-            throw new NotImplementedException();
+            TicketRepository trep = new TicketRepository(db);
+            return trep.GetFrom1Show1(id);
         }
     }
 }

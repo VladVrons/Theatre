@@ -1,6 +1,7 @@
 ﻿using DAL.EF;
 using DAL.Entities;
 using DAL.Repositories;
+using System.Collections.Generic;
 using Xunit;
 
 namespace ToD.Tests
@@ -52,11 +53,9 @@ namespace ToD.Tests
         {
             ShowContext db = new ShowContext("DefaultConnection");
             ShowRepository showrepo = new ShowRepository(db);
-            Show show = showrepo.Get(3);
-            show.Author = "Me";
-            showrepo.Update(show);
-            db.SaveChanges();
-            Assert.Equal("Me", showrepo.Get(3).Author);
+            List<Ticket> shows = showrepo.GetFrom1Show1(1);
+            
+            Assert.Equal(5, shows.Count);
         }
 
     }
