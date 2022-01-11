@@ -13,6 +13,6 @@ namespace BLL.DTO
         public string Genre { get; set; }
         public DateTime Date { get; set; }
         public int Size { get; set; }
-        public List<Ticket> Tickets;
+        public IEnumerable<Ticket> Tickets;
     }
 }

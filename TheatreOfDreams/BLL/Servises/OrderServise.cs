@@ -23,10 +23,11 @@ namespace BLL.Servises
            
             if (show == null)
                 throw new ValidationException("Шоу не найдено", "");
-            show.Tickets = Database.Tickets.GetFrom1Show1(showId);
-            var ticket = show.Tickets.Where(x => x.Seat == seat);
             
-            Database.Tickets.Update(ticket.First());
+            show.Tickets = Database.Tickets.GetFrom1Show1(showId);
+            var ticket = show.Tickets.Where(x => x.Seat == seat).First();
+            ticket.Status = 1;
+            Database.Tickets.Update(ticket);
             Database.Save();
         }
 
@@ -53,10 +54,11 @@ namespace BLL.Servises
 
             if (show == null)
                 throw new ValidationException("Шоу не найдено", "");
-            
-            //show.Tickets[seat].Status = 2;
-            
-            //Database.Tickets.Update(show.Tickets[seat]);
+
+            show.Tickets = Database.Tickets.GetFrom1Show1(showId);
+            var ticket = show.Tickets.Where(x => x.Seat == seat).First();
+            ticket.Status = 2;
+            Database.Tickets.Update(ticket);
             Database.Save();
         }
 

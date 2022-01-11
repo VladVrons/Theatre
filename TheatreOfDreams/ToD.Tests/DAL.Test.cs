@@ -66,6 +66,18 @@ namespace ToD.Tests
         }
 
         [Fact]
+        public void TicketRepo_Update()
+        {
+            TicketRepository ticketrepo = new TicketRepository(db);
+
+            Ticket ticket = ticketrepo.Get(3);
+            ticket.Status = 2;
+            ticketrepo.Update(ticket);
+            db.SaveChanges();
+            Assert.Equal(2, ticketrepo.Get(3).Status);
+        }
+
+        [Fact]
         public void CreateNewTicket()
         {
             TicketRepository ticketrepo = new TicketRepository(db);
