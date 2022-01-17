@@ -37,25 +37,13 @@ namespace PrL
                 });
             });
             services.AddControllersWithViews();
-            /*//var kernel = new StandardKernel();
-            //kernel.Bind
-            //DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel));
             NinjectModule orderModule = new OrderModule();
-            NinjectModule serviceModule = new ServiceModule("DefaultConnection3");
-
-            //services.AddScoped<OrderService, OrderModule>();
-            //services.AddSingleton<IOrderService, OrderService>();
-            //services.AddSingleton<NinjectModule, ServiceModule>();
-            List<INinjectModule> ninjectModules = new List<INinjectModule>()
-                   {
-                       new OrderModule(),
-                       new ServiceModule("DefaultConnection3")
-                    };
-            //var kernel = new StandardKernel();
-            //DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel));*/
+            NinjectModule serviceModule = new ServiceModule("DefaultConnection");
+            var kernel = new StandardKernel(orderModule, serviceModule);
+            DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel));
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

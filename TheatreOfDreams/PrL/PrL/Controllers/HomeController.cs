@@ -14,10 +14,10 @@ using System.Threading.Tasks;
 
 namespace PrL.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
+    //[ApiController]
+    //[Route("api/[controller]")]
 
-    [Produces("application/json")]
+    //[Produces("application/json")]
 
     public class HomeController : Controller
     {
