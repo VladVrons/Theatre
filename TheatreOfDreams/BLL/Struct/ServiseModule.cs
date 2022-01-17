@@ -10,8 +10,10 @@ namespace BLL.Struct
     public class ServiceModule : NinjectModule
     {
         private string connectionString;
+        public IUnitOfWork uow;
         public ServiceModule(string connection)
         {
+            uow = new EFUnitOfWork(connection);
             connectionString = connection;
         }
         public override void Load()

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BLL.DTO
 {
-    class TicketDTO
+    public class TicketDTO
     {
         public int showid { get; set; }
         public int Price { get; set; }

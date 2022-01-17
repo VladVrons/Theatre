@@ -11,6 +11,7 @@ namespace BLL.Servises
         void BuyTicket(int showId, int seat);
         public ShowDTO GetShow(int? id);
         public IEnumerable<ShowDTO> GetShows();
+        public IEnumerable<TicketDTO> GetTickets(int? showid);
         void Dispose();
     }
 }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.6948529411764706" branch-rate="0.3181818181818182" lines-covered="189" lines-valid="272" branches-covered="7" branches-valid="22" complexity="85" version="0" timestamp="1641915715">
+<coverage line-rate="0.6798561151079137" branch-rate="0.3181818181818182" lines-covered="189" lines-valid="278" branches-covered="7" branches-valid="22" complexity="86" version="0" timestamp="1642428461">
   <sources>
     <source>C:\Users\asus\</source>
   </sources>
   <packages>
-    <package name="BLL" line-rate="0.4032258064516129" branch-rate="0.375" complexity="26">
+    <package name="BLL" line-rate="0.36764705882352944" branch-rate="0.375" complexity="27">
       <classes>
         <class name="BLL.DTO.ShowDTO" filename="C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\BLL\DTO\ShowDTO.cs" line-rate="0.8333333333333334" branch-rate="1" complexity="6">
           <methods>
@@ -79,7 +79,7 @@
             <line number="12" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="BLL.Servises.OrderService" filename="C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\BLL\Servises\OrderServise.cs" line-rate="0.5" branch-rate="0.375" complexity="12">
+        <class name="BLL.Servises.OrderService" filename="C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\BLL\Servises\OrderServise.cs" line-rate="0.4444444444444444" branch-rate="0.375" complexity="13">
           <methods>
             <method name="get_Database" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -134,11 +134,20 @@
                 <line number="63" hits="0" branch="false" />
               </lines>
             </method>
-            <method name="Dispose" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="GetTickets" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
                 <line number="66" hits="0" branch="false" />
                 <line number="67" hits="0" branch="false" />
                 <line number="68" hits="0" branch="false" />
+                <line number="69" hits="0" branch="false" />
+                <line number="70" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Dispose" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="73" hits="0" branch="false" />
+                <line number="74" hits="0" branch="false" />
+                <line number="75" hits="0" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
@@ -191,34 +200,41 @@
             <line number="66" hits="0" branch="false" />
             <line number="67" hits="0" branch="false" />
             <line number="68" hits="0" branch="false" />
+            <line number="69" hits="0" branch="false" />
+            <line number="70" hits="0" branch="false" />
+            <line number="73" hits="0" branch="false" />
+            <line number="74" hits="0" branch="false" />
+            <line number="75" hits="0" branch="false" />
           </lines>
         </class>
         <class name="BLL.Struct.ServiceModule" filename="C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\BLL\Struct\ServiseModule.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="Load" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="0" branch="false" />
-                <line number="19" hits="0" branch="false" />
                 <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="false" />
                 <line number="14" hits="0" branch="false" />
                 <line number="15" hits="0" branch="false" />
                 <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="0" branch="false" />
             <line number="14" hits="0" branch="false" />
             <line number="15" hits="0" branch="false" />
             <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
             <line number="18" hits="0" branch="false" />
-            <line number="19" hits="0" branch="false" />
             <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
           </lines>
         </class>
         <class name="BLL.ValidationException" filename="C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\BLL\Struct\ValidationException.cs" line-rate="0" branch-rate="1" complexity="2">

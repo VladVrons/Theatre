@@ -26,6 +26,8 @@ namespace BLL.Servises
             
             show.Tickets = Database.Tickets.GetFrom1Show1(showId);
             var ticket = show.Tickets.Where(x => x.Seat == seat).First();
+            if (ticket.Status == 1)
+                throw new ValidationException("Шоу уже забронировано", "");
             ticket.Status = 1;
             Database.Tickets.Update(ticket);
             Database.Save();
@@ -37,7 +39,7 @@ namespace BLL.Servises
             var mapper = new MapperConfiguration(cfg => cfg.CreateMap<Show, ShowDTO>()).CreateMapper();
             return mapper.Map<IEnumerable<Show>, List<ShowDTO>>(Database.Shows.GetAll());
         }
-
+        
         public ShowDTO GetShow(int? id)
         {
             if (id == null)
@@ -57,14 +59,25 @@ namespace BLL.Servises
 
             show.Tickets = Database.Tickets.GetFrom1Show1(showId);
             var ticket = show.Tickets.Where(x => x.Seat == seat).First();
+            if (ticket.Status == 2)
+                throw new ValidationException("Шоу уже куплено ", "");
             ticket.Status = 2;
             Database.Tickets.Update(ticket);
             Database.Save();
+        }
+
+        public IEnumerable<TicketDTO> GetTickets(int? showid)
+        {
+            int showID = (int)showid;
+            var mapper = new MapperConfiguration(cfg => cfg.CreateMap<Ticket, TicketDTO>()).CreateMapper();
+            return mapper.Map<IEnumerable<Ticket>, List<TicketDTO>>(Database.Tickets.GetFrom1Show1(showID));
         }
 
         public void Dispose()
         {
             Database.Dispose();
         }
+
+        
     }
 }

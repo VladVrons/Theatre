@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.6948000000000001" branch-rate="0.3181" version="1.9" timestamp="1641908514" lines-covered="189" lines-valid="272" branches-covered="7" branches-valid="22">
+<coverage line-rate="0.6798000000000001" branch-rate="0.3181" version="1.9" timestamp="1642421257" lines-covered="189" lines-valid="278" branches-covered="7" branches-valid="22">
   <sources>
     <source>C:\Users\asus\</source>
   </sources>
   <packages>
-    <package name="BLL" line-rate="0.4032" branch-rate="0.375" complexity="26">
+    <package name="BLL" line-rate="0.3676" branch-rate="0.375" complexity="27">
       <classes>
         <class name="BLL.ValidationException" filename="Documents\GitHub\Theatre\TheatreOfDreams\BLL\Struct\ValidationException.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
@@ -34,31 +34,33 @@
           <methods>
             <method name="Load" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="0" branch="False" />
-                <line number="19" hits="0" branch="False" />
                 <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="False" />
                 <line number="14" hits="0" branch="False" />
                 <line number="15" hits="0" branch="False" />
                 <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="18" hits="0" branch="False" />
-            <line number="19" hits="0" branch="False" />
             <line number="20" hits="0" branch="False" />
-            <line number="13" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
             <line number="14" hits="0" branch="False" />
             <line number="15" hits="0" branch="False" />
             <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="BLL.Servises.OrderService" filename="Documents\GitHub\Theatre\TheatreOfDreams\BLL\Servises\OrderServise.cs" line-rate="0.5" branch-rate="0.375" complexity="12">
+        <class name="BLL.Servises.OrderService" filename="Documents\GitHub\Theatre\TheatreOfDreams\BLL\Servises\OrderServise.cs" line-rate="0.44439999999999996" branch-rate="0.375" complexity="13">
           <methods>
             <method name="get_Database" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -129,11 +131,20 @@
                 <line number="63" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="Dispose" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="GetTickets" signature="(System.Nullable`1&lt;System.Int32&gt;)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
                 <line number="66" hits="0" branch="False" />
                 <line number="67" hits="0" branch="False" />
                 <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Dispose" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(DAL.Interfaces.IUnitOfWork)" line-rate="1" branch-rate="1" complexity="1">
@@ -198,6 +209,11 @@
             <line number="66" hits="0" branch="False" />
             <line number="67" hits="0" branch="False" />
             <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
             <line number="16" hits="2" branch="False" />
             <line number="17" hits="2" branch="False" />
             <line number="18" hits="2" branch="False" />
