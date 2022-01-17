@@ -25,8 +25,7 @@ namespace PrL.Controllers
         public HomeController()
         {
             //orderService = serv;
-            var servmod = new ServiceModule("DefaultConnection3");
-            orderService = new OrderService(servmod.uow);
+            
         }
 
         public ActionResult Index()
