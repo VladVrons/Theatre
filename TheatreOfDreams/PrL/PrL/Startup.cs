@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using Ninject;
 using Ninject.Modules;
 using Ninject.Web.WebApi;
+using Swashbuckle.Swagger;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
@@ -27,6 +29,13 @@ namespace PrL
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSwaggerGen(c =>
+            {
+                services.AddSwaggerGen(c =>
+                {
+                    c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+                });
+            });
             services.AddControllersWithViews();
             /*//var kernel = new StandardKernel();
             //kernel.Bind
@@ -56,9 +65,13 @@ namespace PrL
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Test API V1");
+            });
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

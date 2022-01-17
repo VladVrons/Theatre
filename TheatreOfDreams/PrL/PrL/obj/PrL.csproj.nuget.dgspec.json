@@ -183,6 +183,14 @@
             "Ninject.Web.WebApi": {
               "target": "Package",
               "version": "[3.3.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.Core": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             }
           },
           "imports": [

@@ -137,3 +137,9 @@ C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\PrL\PrL\bin\Debug\netcore
 C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\PrL\PrL\obj\Debug\netcoreapp3.1\PrL.Views.pdb
 C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\PrL\PrL\obj\Debug\netcoreapp3.1\PrL.csproj.CopyComplete
 C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\PrL\PrL\obj\Debug\netcoreapp3.1\PrL.genruntimeconfig.cache
+C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\PrL\PrL\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\PrL\PrL\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\PrL\PrL\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\PrL\PrL\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\PrL\PrL\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll
+C:\Users\asus\Documents\GitHub\Theatre\TheatreOfDreams\PrL\PrL\obj\Debug\netcoreapp3.1\PrL.MvcApplicationPartsAssemblyInfo.cs

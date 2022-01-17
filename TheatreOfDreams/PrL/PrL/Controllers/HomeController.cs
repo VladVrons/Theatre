@@ -14,6 +14,11 @@ using System.Threading.Tasks;
 
 namespace PrL.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
+
+    [Produces("application/json")]
+
     public class HomeController : Controller
     {
         IOrderService orderService;
@@ -23,6 +28,7 @@ namespace PrL.Controllers
             var servmod = new ServiceModule("DefaultConnection3");
             orderService = new OrderService(servmod.uow);
         }
+
         public ActionResult Index()
         {
             IEnumerable<ShowDTO> showDtos = orderService.GetShows();
@@ -56,12 +62,12 @@ namespace PrL.Controllers
 
                 var showDto = orderService.GetShow(ticket.showid);
                 orderService.BookTicket(showDto.id, ticket.Seat);
-                return Content("<h2>Ваш заказ успешно оформлен</h2>");
+                return Content("<h1>Ваш заказ успешно оформлен</h1>");
             }
             catch (ValidationException ex)
             {
 
-                return Content("<h2>"+ex.Message+"</h2>");
+                return Content("<h1>"+ex.Message+"</h1>");
             }
         }
 
