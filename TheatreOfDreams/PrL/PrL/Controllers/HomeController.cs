@@ -22,9 +22,9 @@ namespace PrL.Controllers
     public class HomeController : Controller
     {
         IOrderService orderService;
-        public HomeController()
+        public HomeController(IOrderService serv)
         {
-            //orderService = serv;
+            orderService = serv;
             
         }
 
