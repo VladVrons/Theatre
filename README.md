@@ -1,3 +1,3 @@
 # Theatre
-Asp.net project. MVC based
-Using ninject and kernel
+Asp.net project. MVC based.
+Using ninject and kernel.
